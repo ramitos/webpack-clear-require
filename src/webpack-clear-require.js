@@ -4,7 +4,7 @@ var keys = require('lodash.keys');
 
 
 var clear = function(id) {
-  delete cache[id];
+  delete require.cache[id];
 };
 
 var all = function() {

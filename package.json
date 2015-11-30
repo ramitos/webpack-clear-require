@@ -1,0 +1,26 @@
+{
+  "name": "webpack-clear-require",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "main": "src/webpack-clear-require.js",
+  "description": "clear require cache from webpack",
+  "keywords": [
+    "webpack",
+    "cache",
+    "clear",
+    "require",
+    "module",
+    "exports",
+    "clean"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/webpack-clear-require.git"
+  },
+  "author": "Sérgio Ramos <mail@sergioramos.me>",
+  "dependencies": {
+    "lodash.foreach": "^3.0.3",
+    "lodash.isstring": "^3.0.1",
+    "lodash.keys": "^3.1.2",
+  }
+}
